@@ -20,7 +20,7 @@ test('can input information and submit in ContactForm', () => {
     render(<ContactForm/>);
 
     const firstNameInput = screen.getByLabelText(/First Name*/i);
-    const lastNameInput = screen.getByLablelText(/Last Name*/i);
+    const lastNameInput = screen.getByLabelText(/Last Name*/i);
     const emailInput = screen.getByLabelText(/Email*/i);
     const messageInput = screen.getByLabelText(/Message/i);
 
